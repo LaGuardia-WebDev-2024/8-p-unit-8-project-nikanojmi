@@ -6,6 +6,7 @@ setup = function() {
     drawFish(200, 200, color(200,0,200)); 
     drawFish(300, 200, color(0,200,200));
     drawJelly(300,200, color(0,200,200));
+    drawDolphine(200,200,color(0,200,200));
 };
 
 //🟢draw Function - will run on repeat
@@ -33,8 +34,13 @@ var drawJelly = function(jellyX, jellyY, jellyColor){
   textSize(40);
   fill(jellyColor);
   text("🐙𓆝", jellyX, jellyY);
+  };   
   
-  
+//🟡drawDolphine Function - will run when called
+var drawDolphine = function(DolphineX, DolphineY, DolphineyColor){
+  textSize(40);
+  fill(DolphineyColor);
+  text("🐬𓆝", DolphineX, DolphineY);  
   
   
 };
